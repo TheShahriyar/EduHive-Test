@@ -109,6 +109,10 @@ a {
     font-size: 36px;
     font-weight: 600;
     text-transform: capitalize; }
+  .section-title p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0; }
 
 /* Padding Classes */
 .pad-tb-30 {
@@ -122,6 +126,9 @@ a {
 
 .pad-tb-60 {
   padding: 60px 0; }
+
+.pad-tb-100 {
+  padding: 100px 0; }
 
 .pad-t30 {
   padding-top: 30px; }
@@ -331,3 +338,32 @@ a {
     .team-member .team-details span {
       font-size: 10px;
       font-weight: 300; }
+
+.partner-tab .nav {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .partner-tab .nav .nav-item {
+    padding: 0 20px; }
+    .partner-tab .nav .nav-item .nav-link {
+      padding: 10px 50px;
+      border-radius: 50px;
+      border: 2px solid #f5f5f5;
+      color: #111;
+      font-weight: 500; }
+      .partner-tab .nav .nav-item .nav-link.active {
+        background-color: rgba(73, 197, 182, 0.3);
+        border-color: rgba(73, 197, 182, 0.5); }
+
+.partner-tab .tab-content {
+  padding: 80px 0; }
+  .partner-tab .tab-content .partner-icon ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
