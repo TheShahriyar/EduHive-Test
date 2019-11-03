@@ -1,0 +1,228 @@
+//Global Styles Start
+body {
+  color: $text-color;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: $text-font !important;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+.row {
+  width: 100%;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  color: $text-color;
+  font-family: $heading-font !important;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin-bottom: 10px;
+}
+a {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  &:focus {
+    text-decoration: none;
+    color: $text-color;
+    outline: 0;
+  }
+}
+::-moz-selection {
+  background: $primary-color;
+  color: #fff;
+  text-shadow: none;
+  outline: none;
+}
+::selection {
+  background: $primary-color;
+  color: #fff;
+  text-shadow: none;
+  outline: none;
+}
+.btn {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+.btn-primary {
+  font-weight: 700;
+  margin: 0;
+  padding: 12px 20px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: $white !important;
+  border: 1px solid $primary-color;
+  background: $primary-color;
+  text-shadow: none;
+  &:hover {
+    background: $secondary-color;
+    color: $white !important;
+  }
+}
+
+.btn-secondary {
+  font-weight: 400;
+  margin: 0;
+  font-size: 14px;
+  padding: 12px 30px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: $white !important;
+  border: 1px solid $secondary-color;
+  background: $secondary-color;
+  text-shadow: none;
+  &:hover {
+    background: #fff;
+    color: $secondary-color !important;
+    border-color: #fff;
+  }
+
+  &.btn-secondary-large {
+    padding: 15px 200px;
+  }
+}
+
+//Section Title
+.section-title {
+  margin-bottom: 80px;
+  text-align: center;
+  h3 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+}
+
+/* Padding Classes */
+.pad-tb-30 {
+  padding: 30px 0;
+}
+
+.pad-tb-40 {
+  padding: 40px 0;
+}
+
+.pad-tb-50 {
+  padding: 50px 0;
+}
+
+.pad-tb-60 {
+  padding: 60px 0;
+}
+
+.pad-t30 {
+  padding-top: 30px;
+}
+.pad-t40 {
+  padding-top: 40px;
+}
+.pad-t100 {
+  padding-top: 100px;
+}
+.pad-t45 {
+  padding-top: 45px;
+}
+.pad-t50 {
+  padding-top: 50px;
+}
+
+.pad-b25 {
+  padding-bottom: 25px;
+}
+.pad-b30 {
+  padding-bottom: 30px;
+}
+.pad-b40 {
+  padding-bottom: 40px;
+}
+.pad-b50 {
+  padding-bottom: 50px;
+}
+.pad-b80 {
+  padding-bottom: 80px;
+}
+
+/* fadein animation */
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+//FontAwesome override start
+.fa-ul {
+  li {
+    padding: 5px 0;
+    .fa-li {
+      margin-top: 8px;
+      color: $primary-color;
+    }
+  }
+}
+//FontAwesome override end
+.shadow {
+  box-shadow: -25px 0 30px -15px rgba(0, 0, 0, 0.15),
+    25px 0 30px -15px rgba(0, 0, 0, 0.15);
+}
+
+//Global Styles End

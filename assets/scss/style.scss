@@ -1,0 +1,177 @@
+//------------------------------------
+// Imported File
+//------------------------------------
+@import "variable";
+@import "global-styles";
+@import "navbar";
+
+//---------------------------------------
+// Start Header Section
+//---------------------------------------
+
+.banner-section {
+  background-color: $primary-color;
+  padding: 200px 0;
+
+  .banner-text {
+    h1 {
+      font-size: 42px;
+      line-height: 50px;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    &.banner-text-white {
+      color: #fff;
+      h1,
+      h2,
+      h3 {
+        color: #fff;
+      }
+    }
+  }
+}
+
+//---------------------------------------
+// Start Features Section
+//---------------------------------------
+
+.feature-section {
+  margin-bottom: 20px;
+  text-align: center;
+
+  img {
+    margin-bottom: 25px;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+//---------------------------------------
+// Start Counter Section
+//---------------------------------------
+
+.counter-section {
+  background-color: #0c0353;
+  padding: 40px 0 20px 0;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .counter-left {
+    margin-right: 20px;
+  }
+  .counter-right {
+    h5 {
+      font-size: 18px;
+    }
+    p {
+      margin-bottom: 0;
+      font-weight: 300;
+      font-size: 11px;
+    }
+  }
+
+  &.counter-white {
+    h5,
+    p {
+      color: #fff;
+    }
+  }
+}
+
+//---------------------------------------
+// Start Strategy Section
+//---------------------------------------
+
+.strategy-section {
+  .btn-secondary {
+    &:hover {
+      border-color: $secondary-color;
+    }
+  }
+}
+
+.strategy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+
+  .strategy-text {
+    position: relative;
+    h4 {
+      font-size: 30px;
+      line-height: 36px;
+    }
+
+    img {
+      position: absolute;
+      top: -10px;
+      right: 0;
+    }
+
+    &.strategy-text-left {
+      h4 {
+        text-align: right;
+      }
+    }
+
+    &.strategy-text-right {
+      img {
+        left: 0;
+      }
+    }
+  }
+}
+
+//---------------------------------------
+// Start Team Section
+//---------------------------------------
+
+.team-section {
+  background-color: #f5f7f6;
+}
+
+.team-member {
+  margin-bottom: 20px;
+  .team-image {
+    text-align: right;
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .team-details {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: -30px;
+    p {
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+    h4 {
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    span {
+      font-size: 10px;
+      font-weight: 300;
+    }
+  }
+}
