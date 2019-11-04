@@ -76,8 +76,14 @@
     margin-right: 20px;
   }
   .counter-right {
-    h5 {
+    .counter-number {
+      display: flex;
       font-size: 18px;
+      font-weight: 500;
+      font-family: $heading-font;
+      span {
+        margin-left: 10px;
+      }
     }
     p {
       margin-bottom: 0;
@@ -87,7 +93,7 @@
   }
 
   &.counter-white {
-    h5,
+    .counter-number,
     p {
       color: #fff;
     }

@@ -288,13 +288,20 @@ a {
   margin-bottom: 20px; }
   .counter .counter-left {
     margin-right: 20px; }
-  .counter .counter-right h5 {
-    font-size: 18px; }
+  .counter .counter-right .counter-number {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif; }
+    .counter .counter-right .counter-number span {
+      margin-left: 10px; }
   .counter .counter-right p {
     margin-bottom: 0;
     font-weight: 300;
     font-size: 11px; }
-  .counter.counter-white h5,
+  .counter.counter-white .counter-number,
   .counter.counter-white p {
     color: #fff; }
 
