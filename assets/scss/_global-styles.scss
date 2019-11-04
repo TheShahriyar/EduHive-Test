@@ -188,6 +188,9 @@ a {
 .mb-50 {
   margin-bottom: 50px;
 }
+.w100 {
+  width: 100% !important;
+}
 
 /* fadein animation */
 
@@ -227,6 +230,14 @@ a {
   -moz-animation-duration: 1s;
   animation-duration: 1s;
 }
+
+input {
+  &::placeholder {
+    font-size: 12px;
+    color: #ccc;
+  }
+}
+
 //FontAwesome override start
 .fa-ul {
   li {
