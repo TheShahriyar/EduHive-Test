@@ -251,6 +251,8 @@ button.navbar-toggler {
     padding: 0 !important;
     border: 0 !important;
     margin-top: 10px !important; }
+    .header .dropdown-menu input {
+      font-size: 12px; }
   .header ul.navbar-nav {
     -webkit-box-align: center;
     -ms-flex-align: center;
