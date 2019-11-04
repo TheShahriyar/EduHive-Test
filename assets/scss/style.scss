@@ -41,7 +41,10 @@
 .feature-section {
   margin-bottom: 20px;
   text-align: center;
+}
 
+.feature {
+  margin-bottom: 20px;
   img {
     margin-bottom: 25px;
   }
@@ -211,6 +214,7 @@
     .partner-icon {
       ul {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
       }
@@ -240,6 +244,9 @@
 
   span {
     color: #fff;
+  }
+  .btn-group {
+    flex-wrap: wrap;
   }
   .radio-btn {
     margin-right: 20px;
@@ -347,6 +354,7 @@
 
   .footer-upper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding-bottom: 25px;
@@ -368,6 +376,7 @@
   .footer-link {
     ul {
       display: flex;
+      flex-wrap: wrap;
       li {
         margin-right: 15px;
         &:last-child {

@@ -1,5 +1,105 @@
-@media (max-width: 1024px) {}
-@media (max-width: 992px) {}
-@media (max-width: 767px) {}
-@media (max-width: 480px) {}
-@media (max-width: 320px) {}
+@media (max-width: 1024px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 767px) {
+  .btn-secondary.btn-secondary-large {
+    padding: 10px 30px;
+  }
+  .btn-secondary {
+    font-size: 10px;
+  }
+  .pad-t100 {
+    padding-top: 50px;
+  }
+  .pad-b80 {
+    padding-bottom: 30px;
+  }
+  .pad-tb-100 {
+    padding: 50px 0;
+  }
+
+  .section-title {
+    margin-bottom: 50px;
+    h3 {
+      font-size: 26px;
+    }
+  }
+  .banner-section {
+    padding: 100px 0;
+  }
+  .banner-text {
+    text-align: center;
+    h1 {
+      font-size: 32px !important;
+      line-height: 38px !important;
+    }
+    p {
+      font-size: 18px !important;
+    }
+  }
+  .banner-img {
+    display: none;
+  }
+  .strategy .strategy-text {
+    h4 {
+      font-size: 22px;
+      line-height: 26px;
+    }
+    img {
+      top: -25px;
+    }
+  }
+
+  .partner-tab .nav .nav-item {
+    margin-bottom: 20px;
+  }
+  .partner-tab .tab-content {
+    padding: 20px 0;
+  }
+
+  .joining-section {
+    padding: 50px 0;
+    .exam-section {
+      text-align: center;
+    }
+  }
+  .joining-form {
+    text-align: center;
+    .btn-group {
+      justify-content: center;
+    }
+  }
+
+  .radio-btn {
+    margin-right: 0 !important;
+    margin-bottom: 10px;
+    label {
+      min-width: 200px;
+    }
+  }
+
+  .app-store img {
+    width: 120px;
+  }
+
+  .footer-section {
+    padding: 30px 0;
+    .footer-link {
+      li {
+        margin-right: 10px;
+      }
+    }
+    .footer-social {
+      margin-top: 15px;
+      li {
+        margin-left: 0 !important;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}

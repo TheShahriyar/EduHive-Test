@@ -1,8 +1,20 @@
+button.navbar-toggler {
+  padding: 5px;
+  font-size: 1rem;
+  &:focus {
+    outline: 0;
+  }
+}
 @media screen and (min-width: 768px) {
   .header {
+    &.navbar {
+      padding-left: 0;
+      padding-right: 0;
+    }
     &.navbar-light {
       background-color: #f5f7f6;
     }
+
     ul.navbar-nav {
       align-items: center;
       li.nav-item {
@@ -30,6 +42,38 @@
           }
           &.border-left {
             border-left: 1px solid rgba(0, 0, 0, 0.2);
+          }
+        }
+
+        &:hover,
+        &.active {
+          > a {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    ul.navbar-nav {
+      align-items: center;
+      li.nav-item {
+        a.nav-link {
+          .btn {
+            padding: 8px 30px;
+            font-size: 12px;
+            border-radius: 5px;
+            font-weight: normal;
+            text-transform: none;
+          }
+          i {
+            display: none;
+          }
+          &.border-left {
+            border-left: 0 !important;
           }
         }
 
