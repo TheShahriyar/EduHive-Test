@@ -211,3 +211,180 @@
     }
   }
 }
+
+//---------------------------------------
+// Start Joining Section
+//---------------------------------------
+.joining-section {
+  background-color: $primary-color;
+  padding: 100px 0;
+}
+
+.joining-form {
+  h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  p {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  span {
+    color: #fff;
+  }
+  .radio-btn {
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
+    label {
+      position: relative;
+      color: #fff;
+      background-color: rgba(255, 255, 255, 0.2);
+      font-size: 12px;
+      text-align: center;
+      padding: 10px 50px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      cursor: pointer;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    input {
+      display: none;
+    }
+
+    input:checked + label {
+      background-color: rgba(255, 255, 255, 0.9);
+      color: #111;
+    }
+  }
+}
+
+//---------------------------------------
+// Start Download Section
+//---------------------------------------
+
+.download-section {
+  background-color: #f5f7f6;
+  text-align: center;
+}
+
+.download-link-form {
+  .form-group {
+    text-align: left;
+    margin-bottom: 1.5rem;
+    label {
+      text-align: left;
+      font-size: 12px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.input-group {
+  height: 40px;
+
+  input {
+    height: 40px;
+    font-size: 12px;
+    border-color: #ddd !important;
+
+    &::-webkit-input-placeholder {
+      font-size: 13px;
+      color: #999;
+    }
+    &::-moz-placeholder {
+      font-size: 13px;
+      color: #999;
+    }
+    &:-ms-input-placeholder {
+      font-size: 13px;
+      color: #999;
+    }
+    &:-moz-placeholder {
+      font-size: 13px;
+      color: #999;
+    }
+  }
+}
+
+.input-group-text {
+  background-color: $secondary-color;
+  color: #fff;
+  padding: 6px 30px;
+  border: 1px solid $secondary-color;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.app-store {
+  margin-top: 1.5rem;
+  img {
+    margin: 0 10px;
+  }
+}
+
+//---------------------------------------
+// Start Footer Section
+//---------------------------------------
+
+.footer-section {
+  padding: 50px 0;
+  background-color: #040121;
+  color: #fff;
+
+  .footer-upper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 25px;
+  }
+
+  .footer-lower {
+    padding-top: 25px;
+  }
+
+  .copyright {
+    p {
+      color: #bbb;
+      margin-bottom: 0;
+      font-size: 12px;
+      font-weight: 300;
+    }
+  }
+
+  .footer-link {
+    ul {
+      display: flex;
+      li {
+        margin-right: 15px;
+        &:last-child {
+          margin-right: 0;
+        }
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .footer-social {
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      li {
+        margin-left: 10px;
+        a {
+          color: #fff;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

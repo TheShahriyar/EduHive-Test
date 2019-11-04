@@ -94,7 +94,8 @@ a {
   color: #ffffff !important;
   border: 1px solid #0c0353;
   background: #0c0353;
-  text-shadow: none; }
+  text-shadow: none;
+  font-family: "Montserrat", sans-serif; }
   .btn-secondary:hover {
     background: #fff;
     color: #0c0353 !important;
@@ -113,6 +114,13 @@ a {
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 0; }
+
+.text-center {
+  text-align: center !important; }
+
+.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
 
 /* Padding Classes */
 .pad-tb-30 {
@@ -159,6 +167,9 @@ a {
 
 .pad-b80 {
   padding-bottom: 80px; }
+
+.mb-50 {
+  margin-bottom: 50px; }
 
 /* fadein animation */
 @-webkit-keyframes fadeIn {
@@ -367,3 +378,129 @@ a {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+
+.joining-section {
+  background-color: #49c5b6;
+  padding: 100px 0; }
+
+.joining-form h3 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #fff; }
+
+.joining-form p {
+  font-size: 16px;
+  color: #fff; }
+
+.joining-form span {
+  color: #fff; }
+
+.joining-form .radio-btn {
+  margin-right: 20px; }
+  .joining-form .radio-btn:last-child {
+    margin-right: 0; }
+  .joining-form .radio-btn label {
+    position: relative;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .joining-form .radio-btn input {
+    display: none; }
+  .joining-form .radio-btn input:checked + label {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #111; }
+
+.download-section {
+  background-color: #f5f7f6;
+  text-align: center; }
+
+.download-link-form .form-group {
+  text-align: left;
+  margin-bottom: 1.5rem; }
+  .download-link-form .form-group label {
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 0; }
+
+.input-group {
+  height: 40px; }
+  .input-group input {
+    height: 40px;
+    font-size: 12px;
+    border-color: #ddd !important; }
+    .input-group input::-webkit-input-placeholder {
+      font-size: 13px;
+      color: #999; }
+    .input-group input::-moz-placeholder {
+      font-size: 13px;
+      color: #999; }
+    .input-group input:-ms-input-placeholder {
+      font-size: 13px;
+      color: #999; }
+    .input-group input:-moz-placeholder {
+      font-size: 13px;
+      color: #999; }
+
+.input-group-text {
+  background-color: #0c0353;
+  color: #fff;
+  padding: 6px 30px;
+  border: 1px solid #0c0353;
+  font-size: 12px;
+  font-weight: 400; }
+
+.app-store {
+  margin-top: 1.5rem; }
+  .app-store img {
+    margin: 0 10px; }
+
+.footer-section {
+  padding: 50px 0;
+  background-color: #040121;
+  color: #fff; }
+  .footer-section .footer-upper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 25px; }
+  .footer-section .footer-lower {
+    padding-top: 25px; }
+  .footer-section .copyright p {
+    color: #bbb;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 300; }
+  .footer-section .footer-link ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .footer-section .footer-link ul li {
+      margin-right: 15px; }
+      .footer-section .footer-link ul li:last-child {
+        margin-right: 0; }
+      .footer-section .footer-link ul li a {
+        color: #fff; }
+  .footer-section .footer-social ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+    .footer-section .footer-social ul li {
+      margin-left: 10px; }
+      .footer-section .footer-social ul li a {
+        color: #fff;
+        font-size: 18px; }

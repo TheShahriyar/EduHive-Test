@@ -100,6 +100,7 @@ a {
   border: 1px solid $secondary-color;
   background: $secondary-color;
   text-shadow: none;
+  font-family: $heading-font;
   &:hover {
     background: #fff;
     color: $secondary-color !important;
@@ -127,11 +128,18 @@ a {
   }
 }
 
+.text-center {
+  text-align: center !important;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
 /* Padding Classes */
 .pad-tb-30 {
   padding: 30px 0;
 }
-
 .pad-tb-40 {
   padding: 40px 0;
 }
@@ -175,6 +183,10 @@ a {
 }
 .pad-b80 {
   padding-bottom: 80px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
 }
 
 /* fadein animation */
