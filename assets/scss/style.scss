@@ -13,6 +13,10 @@
   background-color: $primary-color;
   padding: 200px 0;
 
+  &.page-banner {
+    padding: 50px 0;
+  }
+
   .banner-text {
     h1 {
       font-size: 42px;
@@ -400,6 +404,73 @@
           font-size: 18px;
         }
       }
+    }
+  }
+}
+
+//---------------------------------------
+// Start Footer Section
+//---------------------------------------
+.pricing {
+  margin-bottom: 100px;
+  .title {
+    margin-bottom: 10px;
+  }
+}
+.pricing-table {
+  .table {
+    th {
+      border-bottom-width: 1px;
+      font-size: 16px;
+      font-weight: 600;
+      font-family: $heading-font;
+      text-transform: uppercase;
+    }
+
+    .price-info {
+      .price-was {
+        s {
+          text-decoration-color: rgb(235, 60, 60);
+        }
+      }
+      .price-now {
+        padding: 15px 0;
+        span {
+          font-size: 30px;
+          font-weight: 600;
+          font-family: $heading-font;
+        }
+        .price-small {
+          font-size: 14px;
+        }
+      }
+
+      .price-try {
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    .price-try {
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+    .pricing-btn {
+      .btn-primary {
+        padding: 8px 20px;
+        font-weight: normal;
+        font-size: 14px;
+        border-radius: 3px;
+      }
+    }
+    .tickgreen {
+      color: rgb(45, 189, 45);
+      font-weight: bold;
+    }
+    .tickred {
+      color: rgb(235, 60, 60);
+      font-weight: bold;
     }
   }
 }

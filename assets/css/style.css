@@ -246,12 +246,12 @@ button.navbar-toggler {
     padding-right: 0; }
   .header.navbar-light {
     background-color: #f5f7f6; }
-  .header .dropdown-menu {
+  .header .dropdown-menu.search-dropdown {
     width: 400px;
     padding: 0 !important;
     border: 0 !important;
     margin-top: 10px !important; }
-    .header .dropdown-menu input {
+    .header .dropdown-menu.search-dropdown input {
       font-size: 12px; }
   .header ul.navbar-nav {
     -webkit-box-align: center;
@@ -280,7 +280,10 @@ button.navbar-toggler {
       .header ul.navbar-nav li.nav-item a.nav-link.border-left {
         border-left: 1px solid rgba(0, 0, 0, 0.2); }
     .header ul.navbar-nav li.nav-item:hover > a, .header ul.navbar-nav li.nav-item.active > a {
-      color: #49c5b6; } }
+      color: #49c5b6; }
+    .header ul.navbar-nav .dropdown-item {
+      font-size: 12px;
+      padding: 5px 15px; } }
 
 @media screen and (max-width: 767px) {
   .dropdown-menu {
@@ -307,6 +310,8 @@ button.navbar-toggler {
 .banner-section {
   background-color: #49c5b6;
   padding: 200px 0; }
+  .banner-section.page-banner {
+    padding: 50px 0; }
   .banner-section .banner-text h1 {
     font-size: 42px;
     line-height: 50px;
@@ -584,3 +589,48 @@ button.navbar-toggler {
       .footer-section .footer-social ul li a {
         color: #fff;
         font-size: 18px; }
+
+.pricing {
+  margin-bottom: 100px; }
+  .pricing .title {
+    margin-bottom: 10px; }
+
+.pricing-table .table th {
+  border-bottom-width: 1px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase; }
+
+.pricing-table .table .price-info .price-was s {
+  -webkit-text-decoration-color: #eb3c3c;
+  text-decoration-color: #eb3c3c; }
+
+.pricing-table .table .price-info .price-now {
+  padding: 15px 0; }
+  .pricing-table .table .price-info .price-now span {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif; }
+  .pricing-table .table .price-info .price-now .price-small {
+    font-size: 14px; }
+
+.pricing-table .table .price-info .price-try a:hover {
+  text-decoration: underline; }
+
+.pricing-table .table .price-try a:hover {
+  text-decoration: underline; }
+
+.pricing-table .table .pricing-btn .btn-primary {
+  padding: 8px 20px;
+  font-weight: normal;
+  font-size: 14px;
+  border-radius: 3px; }
+
+.pricing-table .table .tickgreen {
+  color: #2dbd2d;
+  font-weight: bold; }
+
+.pricing-table .table .tickred {
+  color: #eb3c3c;
+  font-weight: bold; }
