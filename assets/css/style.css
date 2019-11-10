@@ -600,7 +600,8 @@ button.navbar-toggler {
   font-size: 16px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  background-color: rgba(73, 197, 182, 0.3); }
 
 .pricing-table .table .price-info .price-was s {
   -webkit-text-decoration-color: #eb3c3c;
